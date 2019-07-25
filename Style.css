@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(218, 218, 216);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;    
+    max-width: 5000px;
+    min-width: 800px;
+    min-height: 600px;
+}
+.header{
+height: 100px;
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  50px;
+}
+.main{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 16pt;
+}
+.main:hover{
+    padding: 2px 2px 5px 2px;
+    border-top: 1px solid rgb(182, 182, 160);
+}
+.box1{
+    border-width: 1px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.waight{
+    font-size: 36pt;
+    font-weight: bolder;
+}
+.e12{
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgba(102, 98, 98, 0.856);
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    display: flex;
+}
+.winter{
+    flex-direction: row;
+    border-top:  1px solid rgb(161, 159, 159);
+    width: 750px;
+    height:400px;
+    margin-right: 40px;
+}
+.png-winter{
+    width: 320px;
+    height: 210px;
+    float: left;
+    border-right:  5px solid black;
+    border-bottom: 4px solid black;
+    border-left: 5px solid black;
+}
+.detail{
+    float: left;
+    width: 400px;
+    height: 150px;
+    padding-left: 10px ;
+    color: rgba(5, 5, 5, 0.781);
+}
+.SHARE{
+    min-width: 320px;
+    width: 330px;
+}
+.logo{
+    margin: -4px 0px 0px -7px;
+    height: 50px;
+    width: 50px;
+}
+.top-border{
+    border-top:  1px solid rgb(161, 159, 159);
+}
+.button{
+   margin-top: 20px;
+   width: 320px;
+   border-radius: 5px;
+   height: 38px;
+   font-size: 16pt;
+   border: 0px solid rgb(5, 161, 5);
+   background-color: rgb(5, 161, 5);
+   color: rgb(240, 225, 210)
+}
+.size{
+    width: 50px;
+    height: 50px;
+    margin:  0px 20px 25px 0px;
+}
+.lori{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 0px 25px;
+    width: 700px;
+    height: auto;
+}
+.black{
+    background-color: black;
+    width: 50px;
+    height: 5px;
+}
+.lori-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-top:  1px solid rgb(161, 159, 159);
+    width: auto;
+    height: auto;
+}
